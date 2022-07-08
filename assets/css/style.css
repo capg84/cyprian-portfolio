@@ -11,16 +11,16 @@
 }
 
 header {
-    padding: 5px;
-    border-bottom: 10px double black;
+    padding: 1px;
+    border-bottom: 5px double black;
     /* float: right; */
-    height: 200px;
+    height: 170px;
     /* width: 50%; */
-    margin-bottom: 25px;
+    margin-bottom: 5px;
 }
 
 nav {
-    height: 200px;
+    height: 150px;
     color:black;
     margin: 0 0 0 2px;
     font-family: Helvetica, sans-serif;
@@ -53,7 +53,7 @@ ul {
     
 }
 
-li {
+.menu {
     list-style-type: none;
     display: inline;
     padding: 15px;
@@ -85,12 +85,51 @@ main {
 }
 
 h2 {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-decoration: overline;
 }
 
+h3 {
+    margin: 5px;
+}
+
 p {
-    font-family: 'Trebuchet MS';
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.Contact {
+    list-style-type: none;
+    text-align: left;
+}
+
+div {
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+#webdev {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 0;
+}
+
+.ERP {
+    height: 100%;
+    width: 50%;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+
+#ERP {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 80% 0;
 }
 
 @media screen and (min-width: 992px) {
