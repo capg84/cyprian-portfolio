@@ -98,12 +98,12 @@ p {
     text-align: justify;
 }
 
-.Contact {
+.contact {
     list-style-type: none;
     text-align: left;
 }
 
-#My-projects {
+#my-projects {
     display: block;
 }
 
@@ -194,9 +194,9 @@ p {
     filter: grayscale(00%);
 }
 
-/* #contact-me {
+#contact-me {
     display: relative;
-} */
+}
 
 @media screen and (min-width: 992px) {
     header {
