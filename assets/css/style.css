@@ -47,7 +47,6 @@ ul {
     top: 8%;
     text-align: center;
     /* line-height: 2; */
-    max-width: 450px;
     margin: 0 auto;
     padding-left: 0px;
     
@@ -57,6 +56,7 @@ ul {
     list-style-type: none;
     display: inline;
     padding: 15px;
+    max-width: 450px;
 }
 
 a {
@@ -261,7 +261,122 @@ p {
         background-position: center;
     }
     
-    /* main {
+    main {
         padding: 200px;
-    } */
+    }
+
+    h2 {
+        margin-bottom: 20px;
+        text-decoration: overline;
+    }
+    
+    h3 {
+        margin: 5px;
+    }
+    
+    p {
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+    
+    .contact {
+        list-style-type: none;
+        text-align: left;
+        display: block;
+    }
+    
+    #my-projects {
+        display: block;
+    }
+    
+    .main-project {
+        height: 100%;
+        width: 100%;
+        border: 2px solid black;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+    
+    #webdev {
+        height: 600px;
+        width: 100%;
+        object-fit: cover;
+        object-position: 0 0;
+        filter: grayscale(100%);
+    }
+    
+    #webdev:hover {
+        height: 600px;
+        width: 100%;
+        object-fit: cover;
+        object-position: 0 0;
+        filter: grayscale(00%);
+    }
+    
+    .small-projects {
+        /* height: 150px; */
+        width: 100%;
+        display: flex;
+        /* flex-wrap: wrap; */
+    }
+    
+    .erp {
+        display: inline-block;
+        position: relative;
+        bottom: 0px;
+        right: 0%;
+        height: 100%;
+        width: 49.5%;
+        border: 2px solid black;
+        margin-bottom: 20px;
+        margin-right: 5px;
+    }
+    
+    #erpimg {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+        object-position: 80% 0;
+        filter: grayscale(100%);
+    }
+    
+    #erpimg:hover {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+        object-position: 80% 0;
+        filter: grayscale(0%);
+    }
+    
+    .seo {
+        display: inline-block;
+        position: relative;
+        bottom: 0px;
+        right: 0%;
+        height: 100%;
+        width: 49.5%;
+        border: 2px solid black;
+        margin-bottom: 20px;
+        margin-left: 8px;
+    }
+    
+    #seoimg {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+        object-position: 0 0;
+        filter: grayscale(100%);
+    }
+    
+    #seoimg:hover {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+        object-position: 0 0;
+        filter: grayscale(00%);
+    }
+    
+    #contact-me {
+        display: relative;
+    }
 }
