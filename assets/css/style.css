@@ -148,6 +148,7 @@ p {
     bottom: 0px;
     right: 0%;
     height: 100%;
+    width: 100%;
     border: 2px solid black;
     margin-bottom: 10px;
 }
@@ -340,7 +341,7 @@ footer {
     .small-projects {
         width: 100%;
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
     }
     
     .erp {
