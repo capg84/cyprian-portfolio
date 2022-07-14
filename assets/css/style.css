@@ -298,6 +298,7 @@ footer {
         justify-content: space-between;
         padding: 0px 50px;
         vertical-align: middle;
+        align-items: flex-start;
     }
 
     .contact-me-mobile {
